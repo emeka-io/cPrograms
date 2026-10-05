@@ -2,7 +2,7 @@
 
 Counts how many times a given letter appears in a word (case-insensitive).
 
-![demo](demo.gif)
+![demo](count.gif)
 
 ## Run it
 ```bash
