@@ -2,7 +2,20 @@
 
 Counts how many times a given letter appears in a word (case-insensitive).
 
-![demo](count.gif)
+![demo](demo.gif)
+
+## Why I built this
+
+This program was inspired by a famous ChatGPT mistake: when asked how many R's are in "strawberry", it answered two. The correct answer is three.
+
+<img src="chatgpt-error.jpeg" alt="ChatGPT 4o answering that strawberry has two R's" width="400">
+
+A simple loop gets it right every time:
+```
+Enter a word: strawberry
+Enter a letter: r
+'r' appears 3 time(s) in "strawberry"
+```
 
 ## Run it
 ```bash
